@@ -19,9 +19,6 @@ public class OrderController {
     @Autowired
     private AuthUtil authUtil;
 
-//    @Autowired
-//    private StripeService stripeService;
-
     // This endpoint will be called by Payment gateway after payment success
     @PostMapping("/order/users/payments/{paymentMethod}")
     public ResponseEntity<OrderDTO> orderProducts(@PathVariable String paymentMethod, @RequestBody OrderRequestDTO orderRequestDTO) {
