@@ -1,6 +1,6 @@
 # E-Commerce Backend (Spring Boot + PostgreSQL)
-
-A E-Commerce Backend Application built with Java Spring Boot and PostgreSQL.  
+---
+An E-Commerce Backend Application built with Java Spring Boot and PostgreSQL.  
 It demonstrates real-world backend engineering practices including clean architecture, secure authentication, and integration with external services.
 ---
 
@@ -23,7 +23,8 @@ It demonstrates real-world backend engineering practices including clean archite
     - JWT Authentication & Authorization
     - Role-Based Access Control (Admin/User)
     - Google OAuth2 Login (external API integration using `RestTemplate`)
-    - To access the API, you will need to obtain a JWT by authenticating with the /login endpoint. The JWT should then be passed in the Authorize option available in the Swagger-ui.
+    - To access the API, you will need to obtain a JWT by authenticating with the /signi
+    - n endpoint. The JWT should then be passed in the Authorize option available in the Swagger-ui.
 
 - **Business Features**
     - Order Management – order placement and persistence
