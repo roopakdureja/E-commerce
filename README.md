@@ -1,7 +1,7 @@
 # E-Commerce Backend (Spring Boot + PostgreSQL)
----
-An E-Commerce Backend Application built with Java Spring Boot and PostgreSQL.  
-It demonstrates real-world backend engineering practices including clean architecture, secure authentication, and integration with external services.
+
+An E-Commerce Backend Application built with Java Spring Boot and PostgreSQL. It demonstrates real-world backend engineering practices including clean architecture, secure authentication, and integration with external services.
+
 ---
 
 ## Features
