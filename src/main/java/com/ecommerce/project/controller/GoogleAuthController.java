@@ -18,8 +18,8 @@ public class GoogleAuthController {
 
     // This endpoint handles the OAuth2 callback.
     // Normally the frontend would receive the `code` first and send it to backend.
-    // But we didn't have frontend yet so we are making google
-    // to redirect to this endpoint with c Auth code, after user logs in.
+    // But we don't have frontend yet so we are sending code from postman
+    // after getting it from playground.
     @GetMapping("/google/callback")
     public ResponseEntity<?> handleGoogleCallback(@RequestParam(name = "code") String code) {
         return new ResponseEntity<>(googleAuthService.OAuthValidation(code), HttpStatus.OK);
